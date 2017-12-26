@@ -1,0 +1,20 @@
+{
+  "name": "stocks",
+  "version": "1.0.0",
+  "description": "stocks viewing application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "highcharts": "^5.0.14",
+    "highcharts-ng": "^1.2.0",
+    "pg": "^7.3.0",
+    "request": "^2.82.0"
+  }
+}
