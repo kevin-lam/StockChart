@@ -19,7 +19,7 @@ var app = express();
 var pool = new Pool();
 require('dotenv').load();
 var port = process.env.PORT;
-var server = require('http').createServer(app).listen(3000);
+var server = require('http').createServer(app).listen(process.env.PORT || 3000);
 var io = require('socket.io').listen(server);
 
 app.use('/public', express.static(process.cwd() + '/public'));
