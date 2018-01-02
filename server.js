@@ -17,7 +17,7 @@ var express = require('express'),
 
 var app = express();
 var pool = new Pool({
-  connectionString: process.env.DATABASE_URL;
+  connectionString: process.env.DATABASE_URL
 });
 require('dotenv').load();
 var port = process.env.PORT;
