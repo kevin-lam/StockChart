@@ -56,6 +56,10 @@ function StockHandler (pool, io) {
 								client.release();
 							})
 					})
+          .catch(error => {
+            console.error(err);
+					  response.status(403).send({status:403, message: error, type: 'internal'});
+          })
 			}
 		});
 	};
