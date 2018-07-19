@@ -23,12 +23,20 @@ angular
         	showInNavigator: true
       	}
     	},
+      chart: {
+        marginBottom: 0,
+        spacingBottom: 0
+      },
     	credits: {  
       	enabled: false
     	},
     	exporting: {
       	enabled: false
     	},
+      navigator: {
+        enabled: false,
+        margin: 0
+      },
     	title: {
       	text: 'STOCKS'
     	},
