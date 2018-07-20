@@ -37,6 +37,11 @@ angular
         enabled: false,
         margin: 0
       },
+      plotOptions: {
+        series: {
+          animation: false
+        }
+      },
     	title: {
       	text: 'STOCKS'
     	},
@@ -53,7 +58,6 @@ angular
           	return (this.value > 0 ? '+' : '') + this.value + '%';
         	}
       	},
-        tickAmount: 8
     	},
     	series: stockSeries,
     	addStock: function(stock) {
