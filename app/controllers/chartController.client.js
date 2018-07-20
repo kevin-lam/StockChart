@@ -53,6 +53,7 @@ angular
           	return (this.value > 0 ? '+' : '') + this.value + '%';
         	}
       	},
+        tickAmount: 8
     	},
     	series: stockSeries,
     	addStock: function(stock) {
@@ -62,13 +63,11 @@ angular
     			}
     		});
     		this.series.push(stock);
-        this.redraw();
     	},
     	removeStock: function(name) {
 				for (var i=this.series.length - 1; i >=0; i--) {
 					if (this.series[i].name === name) {
 						this.series.splice(i, 1);
-            this.redraw();
 					}
 				}
     	}
