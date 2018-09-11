@@ -24,8 +24,8 @@ angular
       	}
     	},
       chart: {
-        marginBottom: 0,
-        spacingBottom: 0
+        marginBottom: 10,
+        spacingBottom: 30
       },
     	credits: {  
       	enabled: false
