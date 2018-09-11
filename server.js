@@ -1,5 +1,4 @@
 /*******************************************************************************
-
 	STOCKS
 	-----------------
 	Web application which displays a stock historical timeline. Users
